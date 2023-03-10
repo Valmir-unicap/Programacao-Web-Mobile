@@ -1,0 +1,23 @@
+body {
+    background-color: black;
+}
+
+p {
+    color: white;
+}
+
+h1 {
+    color:seagreen;
+}
+
+h2, h3 {
+    color:dodgerblue;
+}
+
+#email {
+    color: yellow;
+}
+
+#instagram {
+    color: yellow;
+}
