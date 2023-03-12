@@ -1,0 +1,59 @@
+body {
+  background: linear-gradient(120deg, #44136b, #450857);
+  font-family: "Courier New", Courier, monospace;
+  color: white;
+}
+
+#home {
+  font-size: 40px;
+}
+
+#botaoHome {
+  font-size: 30px;
+}
+
+h1 {
+  color: rosybrown;
+  text-align: center;
+}
+
+h2,
+#lema {
+  text-align: center;
+  color: dodgerblue;
+}
+
+#cadastro {
+  color: yellow;
+}
+
+#by {
+  color: white;
+  font-size: 35px;
+  text-align: center;
+}
+
+label {
+  color: yellow;
+}
+
+#nome,
+#contato,
+#email,
+#senha,
+#data,
+#estado {
+  height: 25px;
+  width: 30%;
+  text-align: center;
+}
+
+#enviar {
+  width: 100px;
+  height: 45px;
+}
+
+#termo {
+  width: 35px;
+  height: 20px;
+}

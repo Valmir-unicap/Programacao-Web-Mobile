@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <link
+      rel="stylesheet"
+      href="/Programacao-Web-Mobile-main/Programacao-Web-Mobile-main/Atividades/Cadastro/cadastro.css"
+    />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rede UNIKUT</title>
+  </head>
+  <body>
+    <p id="home">
+      <button id="botaoHome">
+        <a
+          href="/Programacao-Web-Mobile-main/Programacao-Web-Mobile-main/Atividades/index.html"
+          style="text-decoration: none"
+          >☰</a
+        >
+      </button>
+      <b><i>Home</i></b>
+    </p>
+    <hr />
+
+    <h1><i>UNIKUT</i></h1>
+    <hr />
+
+    <h2><i>Criar uma nova conta</i></h2>
+    <p id="lema">É rápido e fácil.</p>
+    <br />
+
+    <form action="https://www.w3schools.com/action_page.php" method="post">
+      <label><b>Nome: </b></label>
+      <input
+        type="text"
+        name="nomeUsuario"
+        placeholder="Digite seu nome"
+        id="nome"
+        required
+      />
+
+      <label><b>Contato: </b></label>
+      <input
+        type="number"
+        name="contatoUsuario"
+        placeholder="Digite seu numero de celular"
+        id="contato"
+        required
+      />
+      <br />
+      <br />
+
+      <label><b>Email: </b></label>
+      <input
+        type="email"
+        name="emailUsuario"
+        placeholder="digiteSeuEmail@dominio.com"
+        id="email"
+        required
+      />
+
+      <label><b>Senha: </b></label>
+      <input
+        type="password"
+        name="senhaUsuario"
+        placeholder="Digite sua senha"
+        id="senha"
+        required
+      />
+      <br />
+      <br />
+
+      <label><b>Data de nascimento:</b></label>
+      <input
+        type="date"
+        name="dataNascimento"
+        placeholder="Digite seu ano de nascimento"
+        id="data"
+        required
+      />
+
+      <label><b>Escolha seu estado: </b></label>
+      <select id="estado">
+        <option>Pernambuco</option>
+        <option>Acre</option>
+        <option>São Paulo</option>
+        <option>Rio de Janeiro</option>
+        <option>Bahia</option>
+        <option>Sergipe</option>
+        <option>Minas Gerais</option>
+        <option>João Pessoa</option>
+        <option>Ceara</option>
+        <option>Brasilia</option>
+        <option>Rio grande do sul</option>
+        <option>Santa Catarina</option>
+        <option>Amazonas</option>
+        <option>Roraima</option>
+      </select>
+
+      <br />
+      <br />
+
+      <label><b>Escolha seu gênero: </b></label>
+      <br />
+      <input type="radio" name="genero" value="Homem" />Homem<br />
+      <input type="radio" name="genero" value="Mulher" />Mulher<br />
+      <input type="radio" name="genero" value="LGBTQIA+" />LGBTQIA+<br />
+      <input type="radio" name="genero" value="Prefiro não declarar" />Prefiro
+      não declarar<br />
+      <br />
+
+      <label id="cadastro"><b>Aceitar termos de compromisso:</b></label>
+      <input
+        type="checkbox"
+        required
+        value="SIM"
+        name="TermoCompromisso"
+        id="termo"
+      />
+      <p id="cadastro">
+        Ao se cadastrar, você concorda com nossos Termos, Política de
+        Privacidade e Política de Cookies.
+      </p>
+      <br />
+
+      <label>
+        <input
+          type="submit"
+          name="salvarCadastro"
+          value="Cadastre-se"
+          id="enviar"
+          required
+        />
+      </label>
+    </form>
+
+    <hr />
+
+    <h2 id="by"><i>Developed by Valmir Junior © 2023</i></h2>
+  </body>
+</html>

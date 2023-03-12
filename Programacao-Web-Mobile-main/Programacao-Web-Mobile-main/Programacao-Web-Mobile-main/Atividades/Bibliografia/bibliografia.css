@@ -1,0 +1,56 @@
+body {
+  background: linear-gradient(120deg, #44136b, #450857);
+  font-family: "Courier New", Courier, monospace;
+  color: white;
+}
+
+#name {
+  font-size: 45px;
+  text-align: center;
+}
+
+#email {
+  color: yellow;
+}
+
+#instagram {
+  color: yellow;
+}
+
+#home {
+  font-size: 40px;
+}
+
+#botao {
+  font-size: 30px;
+}
+
+#referencia {
+  color: rosybrown;
+  font-family: "Courier New", Courier, monospace;
+  text-align: center;
+}
+
+#contato,
+#rotina {
+  text-align: center;
+  color: dodgerblue;
+}
+
+#foto {
+  border-radius: 51%;
+  width: 20%;
+}
+
+.center {
+  text-align: center;
+}
+
+#by {
+  text-align: center;
+  font-size: 35px;
+}
+
+#dia {
+  color: white;
+}
